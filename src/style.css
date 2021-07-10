@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+
+.hero{
+    background-image: linear-gradient(to left top, #1b1e1f, #2a2e30, #3b3f42, #4c5155, #5e6469);
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    width: 200px;
+    text-decoration: none;
+    margin: 30px;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.heroArea{
+    display: flex;
+    
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heroText{
+    margin-left: 30px;
+    margin-bottom: 180px;
+}
+
+.button{
+    width: 180px;
+    height: 55px;
+    background-color: tomato;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #FF7600;
+    
+}
+
+.button:active{
+    background-color: #0A1931;
+    color: whitesmoke;
+    
+}
+
+.social{
+
+    padding-bottom: 200px;
+}
+
+.logo{
+    height: 70px;
+    margin: 30px;
+}
+
+.soc{
+    margin: 15px;
+}
+
+.so{
+    margin: 15px;
+}
+
+
+
+.infoH2{
+    
+    font-size: 70px;
+}
+
+.infoP{
+font-size: 35px;
+}
+
+.subSection{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+@media only screen and(max-width:1000px){
+    .subSection{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+.headShot{
+    width: 300px;
+    border-radius: 150px;
+}
+
+.contactSection{
+    font-family: 'Prompt', sans-serif;
+    background-image: linear-gradient(to right top, #000407, #3c3d3f, #777879, #b9b9ba, #ffffff);
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+
+@media only screen and(max-width:1000px){
+    .contactSection{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+input{
+    background-image: linear-gradient(to right bottom, #cbcbcb, #d8d8d8, #e5e5e5, #f2f2f2, #ffffff);
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+    border-radius: 12px
+}
+
+textarea{
+    background-image: linear-gradient(to right bottom, #cbcbcb, #d8d8d8, #e5e5e5, #f2f2f2, #ffffff);
+    width: 500px;
+    
+    border: none;
+   
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    border-radius: 15px
+}
+
+.logoDivPic{
+    width: 480px;
+    border-radius: 240px;
+}
+
+.about{
+    font-family: 'Prompt', sans-serif;
+    height: fit-content;
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.services-content{
+    padding: 30px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    
+}
+
+.services-content:hover{
+    background-color: darkgray;
+}
+
+footer{
+    background-color: white
+    ;
+    color: black;
+    font-family: 'Prompt', sans-serif;
+    height: inherit;
+}
+
+.footerClass{
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+}
+
+.foot{
+   
+    width: 30px;
+    justify-content: space-evenly;
+}
+
+a{
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
